@@ -12,6 +12,8 @@ def myfixture():
 	yield calc
 	print("结束计算")
 
+#def pytest_collection_modifyitems(session,):
+
 '''
 @pytest.fixture(params=['参数1','参数2'])     #autouse=True 每一个case都会执行
 def myfixture2(request):
